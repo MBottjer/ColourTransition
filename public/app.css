@@ -1,3 +1,32 @@
 body {
   background-color: rgb(0,0,0);
 }
+
+div {
+    background: red;
+    border: 1px solid #AAA;
+    width: 80px;
+    height: 500px;
+    margin: 0 5px;
+    float: left;
+    opacity: 0.3;
+  }
+
+div#right {
+  float: right;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity:1;
+}
+
+span {
+  font-family: 'Audiowide', cursive;
+  font-size: 200%;
+  position: absolute;
+  margin-left: 500px;
+  margin-top:100px;
+}
