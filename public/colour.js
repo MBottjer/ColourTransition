@@ -11,7 +11,7 @@ $win.resize(getWidthandHeight).mousemove(function(event) {
     rgb = [
         Math.floor(event.pageX/w * 255),
         Math.floor(event.pageY/h * 255),
-        100
+        50
     ];
 
     $(document.body).css('background','rgb('+rgb.join(',')+')');
